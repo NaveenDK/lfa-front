@@ -1,3 +1,42 @@
 main{
   min-height:80vh;
 }
+.leftFirstRow {/* margin: auto 0px; */justify-content: center;margin-left: auto;
+  margin-right: 0;
+  width: 8em;}
+
+.leftSecondRow {justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;}
+
+.thirdSecondRow {justify-content: center;
+  margin-left: auto;
+  margin-right: 0;
+  width: 8em;}
+
+
+  .rightFirstRow {/* margin: auto 0px; */justify-content: center;margin-left: 0;
+    margin-right: auto;
+    width: 8em;}
+  
+  .rightSecondRow {justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;}
+ 
+    .thirdSecondRow {
+      justify-content: center;
+      margin-left: auto;
+      margin-right: 0;
+      width: 8em;
+  }
+
+  button.rightButton.btn.btn-primary 
+{ 
+   margin-left:46px;
+    margin-right:0px!important;
+}
+.buttons-form {
+  margin-top: 30px;
+}

@@ -9,6 +9,11 @@ import TeachersScreen from './screens/TeachersScreen'
 import StudentsScreen from './screens/StudentsScreen'
 import LoginScreen from './screens/LoginScreen'
 import MainScreen from'./screens/MainScreen'
+import OneStudentForm from './screens/OneStudentForm'
+import EnrollStudent from './screens/EnrollStudent'
+import OneAddTeacher from './screens/OneAddTeacher'
+import TwoAddTeacher from './screens/TwoAddTeacher'
+import FinalizeEnrollment from './screens/FinalizeEnrollment'
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
            <Route path='/teachers'component= {TeachersScreen} />
            <Route path='/students'component= {StudentsScreen} />
            <Route path='/dashboard'component= {MainScreen} exact />
+           <Route path='/onestudentform'component= {OneStudentForm} exact />
+           <Route path='/enrollstudent'component= {EnrollStudent} exact />
+           <Route path='/oneaddteacher'component= {OneAddTeacher} exact />
+           <Route path='/twoaddteacher'component= {TwoAddTeacher} exact />
+           <Route path='/finalize_enrollment'component= {FinalizeEnrollment} exact />
            <Route path='/'component= {HomeScreen} exact/>
         </Container>
       </main>
